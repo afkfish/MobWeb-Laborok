@@ -1,0 +1,13 @@
+# exclude all sub .gradle folders
+**/.gradle
+**/gradle
+# exclude all sub build folders
+**/build
+# exclude all sub .git folders
+**/.git
+# exclude all sub .vscode folders
+**/.vscode
+# exclude all sub .idea folders
+**/.idea
+
+**/.github
