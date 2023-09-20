@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PublicTransport</string>
+    <string name="bike">Bike</string>
+    <string name="bus">Bus</string>
+    <string name="train">Train</string>
+    <string name="purchase_pass">Purchase pass</string>
+    <string name="public_servant">Public servant</string>
+    <string name="senior">Senior</string>
+    <string name="full_price">Full price</string>
+    <string name="price_category">Price category</string>
+    <string name="end_date">End date</string>
+    <string name="start_date">Start date</string>
+    <string name="enter_credentials">Please enter your credentials</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="boat">Boat</string>
+</resources>
