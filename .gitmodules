@@ -1,0 +1,6 @@
+[submodule "Lab1"]
+	path = Lab1
+	url = https://github.com/VIAUAC00/viauac00-lab-2023-01-android-helloworld-afkfish.git
+[submodule "Lab2"]
+	path = Lab2
+	url = https://github.com/VIAUAC00/viauac00-lab-2023-02-android-ui-afkfish.git
