@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:text="4200" />
+                tools:text="4200" />
 
         <Button
                 android:id="@+id/btnPurchase"
