@@ -18,7 +18,7 @@ class DatePickerDialogFragment : DialogFragment(), DatePickerDialog.OnDateSetLis
         val day = c.get(Calendar.DAY_OF_MONTH)
         // disable past dates
         val datePickerDialog = DatePickerDialog(requireContext(), this, year, month, day)
-        datePickerDialog.datePicker.minDate = System.currentTimeMillis() - 1000
+        datePickerDialog.datePicker.minDate = System.currentTimeMillis() + (1000 * 60 * 60 * 24)
         return datePickerDialog
     }
 
