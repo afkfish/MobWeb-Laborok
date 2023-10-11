@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/menu_style"
+            android:icon="@drawable/ic_style"
+            android:title="@string/style"
+            app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/menu_style_line"
+                        android:checked="true"
+                        android:title="@string/line" />
+                <item
+                        android:id="@+id/menu_style_point"
+                        android:checked="false"
+                        android:title="@string/point" />
+            </group>
+        </menu>
+    </item>
+    <item
+            android:id="@+id/menu_canvas_clear"
+            android:icon="@drawable/ic_clear_canvas"
+            android:title="@string/clear"
+            app:showAsAction="always" />
+    <item
+            android:id="@+id/menu_canvas_color"
+            android:icon="@drawable/ic_color"
+            android:title="@string/color"
+            app:showAsAction="ifRoom">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                            android:id="@+id/menu_color_red"
+                            android:checked="false"
+                            android:title="@string/red" />
+                    <item
+                            android:id="@+id/menu_color_green"
+                            android:checked="true"
+                            android:title="@string/green" />
+                    <item
+                            android:id="@+id/menu_color_blue"
+                            android:checked="false"
+                            android:title="@string/blue" />
+                </group>
+            </menu>
+    </item>
+</menu>

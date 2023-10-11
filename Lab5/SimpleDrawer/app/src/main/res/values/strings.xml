@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simple Drawer</string>
+
+    <string name="style">Stílus</string>
+    <string name="line">Vonal</string>
+    <string name="point">Pont</string>
+
+    <string name="are_you_sure_want_to_exit">Biztosan ki akarsz lépni?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Mégse</string>
+    <string name="clear">Törlés</string>
+    <string name="color">Szín</string>
+    <string name="red">Piros</string>
+    <string name="green">Zöld</string>
+    <string name="blue">Kék</string>
+</resources>
