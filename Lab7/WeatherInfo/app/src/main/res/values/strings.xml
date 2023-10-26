@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WeatherInfo</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_city">Cities</string>
+    <string name="remove">Remove</string>
+
+    <string name="new_city">New city</string>
+    <string name="new_city_hint">City</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="weather">Weather in %s </string>
+    <string name="temperature">Temperature</string>
+    <string name="min_temperature">Min temperature</string>
+    <string name="max_temperature">Max temperature</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="main">Main</string>
+    <string name="details">Details</string>
+</resources>
