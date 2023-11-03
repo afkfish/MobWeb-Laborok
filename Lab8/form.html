@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Űrlap kezelés</title>
+</head>
+
+<body>
+	<form action="/postform.html" method="post">
+		<label for="nev">Név</label>
+		<input type="text" id="nev" name="nev" placeholder="Név*" required/>
+		<br/>
+		<label for="jelszo">Jelszó</label>
+		<input type="password" id="jelszo" name="jelszo" value="mobweb" required/>
+		<br/>
+		<label for="leiras">Leírás</label>
+		<textarea type="text" id="leiras" name="leiras" rows="8"></textarea>
+		<br/>
+		<label for="szuletesi_datum">Születési dátum</label>
+		<input type="date" id="szuletesi_datum" name="szuletesi_datum" placeholder="Születési dátum" required>
+		<br/>
+		<label for="nem">Nem</label>
+		<select id="nem" name="nem">
+			<option value="ferfi">Férfi</option>
+			<option value="no">Nő</option>
+		</select>
+		<br/>
+		<label for="footsize">Láb méret</label>
+		<input type="number" id="footsize" name="footsize" step="0.5" value="42" min="20" max="60">
+		<br/>
+		<input type="submit" value="Küldés">
+	</form>
+</body>
+
+</html>
