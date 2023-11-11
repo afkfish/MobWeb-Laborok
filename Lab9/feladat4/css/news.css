@@ -1,0 +1,50 @@
+/* 4.3 - Főhír megjelenítése */
+.news-header {
+    display: flex;
+}
+.author-profile-picture {
+    width: 80px;
+    height: 80px;
+    align-self: start;
+    padding-right: 1rem;
+}
+main header h1 {
+    margin-bottom: .75rem;
+}
+main header .name {
+    font-weight: bold;
+    padding-bottom: .25rem;
+}
+
+main header .publish-date {
+    font-style: italic;
+    font-size: .75rem;
+    color: #999;
+}
+main article {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+}
+article .image {
+    align-self: center;
+}
+article .images img {
+    max-width: 250px;
+}
+/* 4.4 Oldalsó sáv */
+aside header h3 {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+aside article {
+    border-bottom: solid 1px lightgray;
+    margin-bottom: 1rem;
+}
+aside article:last-child {
+    border: none;
+    margin: 0;
+}
+
+/* 4.4 - IMSc */

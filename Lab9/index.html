@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Weboldal megjelenésének vizsgálata</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<header>
+		<h1>Mobil- és Webes szoftverek fejlesztése - CSS</h1>
+	</header>
+
+	<nav>
+		<a href="index.html">Főoldal</a>
+		<a href="https://www.google.com">Google</a>
+	</nav>
+
+	<main>
+		<h2>Weboldal megjelenésének vizsgálata</h2>
+		<p>Az alábbi rövid kis kódrészletek segítségével megvizsgálhatjuk, hogy az egyes tag-ek hogyan jelennek meg a böngészőben.</p>
+
+		<h3>Alapvető HTML tagek vizsgálata</h3>
+		<div>
+			Egyszerű szöveg <b>vastak</b> és <i>dőlt</i> és szöveggel<br>
+			Több sorban <span>span</span> tag használatábal.
+			White space kezeléssel.
+			<p>Bekezdéseket is lehet vele kezelni</p>
+		</div>
+
+		<h3>Felsorolások</h3>
+		<ul class="menu">
+			<li tabindex="1">Első elem</li>
+			<li tabindex="2">Második elem</li>
+		</ul>
+
+		<ol class="clearfix">
+			<li>Számozott első</li>
+			<li>Számozott második</li>
+		</ol>
+
+		<h3>Táblázatok vizsgálata</h3>
+		<table class="medium-only">
+			<thead>
+				<tr>
+					<th>Tantárgy neve</th>
+					<th>Neptun kód</th>
+					<th>Kredit szám</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mobil- és webes szoftverek</td>
+					<td>VIAUAC00</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>Webportálok fejlesztése</td>
+					<td>VIAUJV83</td>
+					<td>4</td>
+				</tr>
+			</tbody>
+			</tfoot>
+		</table>
+
+		<h3>Képek kezelése képaláírással</h3>
+		<figure>
+			<img src="https://via.placeholder.com/40x40" alt="John Doe" alt="50x50-as kép">
+			<figcaption>John Doe</figcaption>
+		</figure>
+	</main>
+
+	<aside>
+		<h2>Gincsai Gábor</h2>
+		<img src="https://via.placeholder.com/50x50" alt="Gincsai Gábor profilképe" />
+		<p>
+			Oktatott tárgyak
+			<ul>
+				<li>Mobil- és webes szoftverek</li>
+				<li>Webportálok fejlesztése</li>
+			</ul>
+		</p>
+	</aside>
+
+	<footer>
+		2022 | BME AUT
+	</footer>
+</body>
+
+</html>
